@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2FA7BF1624BC6200F875DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2FA7BE1624BC6200F875DE /* Cocoa.framework */; };
+		9B2FA7C11624BC6200F875DE /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2FA7C01624BC6200F875DE /* RubyCocoa.framework */; };
+		9B2FA7CB1624BC6200F875DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7C91624BC6200F875DE /* InfoPlist.strings */; };
+		9B2FA7CD1624BC6200F875DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2FA7CC1624BC6200F875DE /* main.m */; };
+		9B2FA7D11624BC6200F875DE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7CF1624BC6200F875DE /* Credits.rtf */; };
+		9B2FA7D31624BC6200F875DE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7D21624BC6200F875DE /* rb_main.rb */; };
+		9B2FA7D51624BC6200F875DE /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7D41624BC6200F875DE /* AppDelegate.rb */; };
+		9B2FA7D81624BC6200F875DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7D61624BC6200F875DE /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B2FA7BA1624BC6200F875DE /* Flusher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flusher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2FA7BE1624BC6200F875DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9B2FA7C01624BC6200F875DE /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = System/Library/Frameworks/RubyCocoa.framework; sourceTree = SDKROOT; };
+		9B2FA7C31624BC6200F875DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9B2FA7C41624BC6200F875DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9B2FA7C51624BC6200F875DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B2FA7C81624BC6200F875DE /* Flusher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flusher-Info.plist"; sourceTree = "<group>"; };
+		9B2FA7CA1624BC6200F875DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B2FA7CC1624BC6200F875DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B2FA7CE1624BC6200F875DE /* Flusher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flusher-Prefix.pch"; sourceTree = "<group>"; };
+		9B2FA7D01624BC6200F875DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9B2FA7D21624BC6200F875DE /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		9B2FA7D41624BC6200F875DE /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		9B2FA7D71624BC6200F875DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B2FA7B71624BC6200F875DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2FA7BF1624BC6200F875DE /* Cocoa.framework in Frameworks */,
+				9B2FA7C11624BC6200F875DE /* RubyCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B2FA7AF1624BC6200F875DE = {
+			isa = PBXGroup;
+			children = (
+				9B2FA7C61624BC6200F875DE /* Flusher */,
+				9B2FA7BD1624BC6200F875DE /* Frameworks */,
+				9B2FA7BB1624BC6200F875DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B2FA7BB1624BC6200F875DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B2FA7BA1624BC6200F875DE /* Flusher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B2FA7BD1624BC6200F875DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B2FA7BE1624BC6200F875DE /* Cocoa.framework */,
+				9B2FA7C01624BC6200F875DE /* RubyCocoa.framework */,
+				9B2FA7C21624BC6200F875DE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B2FA7C21624BC6200F875DE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B2FA7C31624BC6200F875DE /* AppKit.framework */,
+				9B2FA7C41624BC6200F875DE /* CoreData.framework */,
+				9B2FA7C51624BC6200F875DE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9B2FA7C61624BC6200F875DE /* Flusher */ = {
+			isa = PBXGroup;
+			children = (
+				9B2FA7D41624BC6200F875DE /* AppDelegate.rb */,
+				9B2FA7D61624BC6200F875DE /* MainMenu.xib */,
+				9B2FA7C71624BC6200F875DE /* Supporting Files */,
+			);
+			path = Flusher;
+			sourceTree = "<group>";
+		};
+		9B2FA7C71624BC6200F875DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B2FA7C81624BC6200F875DE /* Flusher-Info.plist */,
+				9B2FA7C91624BC6200F875DE /* InfoPlist.strings */,
+				9B2FA7CC1624BC6200F875DE /* main.m */,
+				9B2FA7CE1624BC6200F875DE /* Flusher-Prefix.pch */,
+				9B2FA7CF1624BC6200F875DE /* Credits.rtf */,
+				9B2FA7D21624BC6200F875DE /* rb_main.rb */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B2FA7B91624BC6200F875DE /* Flusher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2FA7DB1624BC6200F875DE /* Build configuration list for PBXNativeTarget "Flusher" */;
+			buildPhases = (
+				9B2FA7B61624BC6200F875DE /* Sources */,
+				9B2FA7B71624BC6200F875DE /* Frameworks */,
+				9B2FA7B81624BC6200F875DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flusher;
+			productName = Flusher;
+			productReference = 9B2FA7BA1624BC6200F875DE /* Flusher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B2FA7B11624BC6200F875DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gabor Garami";
+			};
+			buildConfigurationList = 9B2FA7B41624BC6200F875DE /* Build configuration list for PBXProject "Flusher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B2FA7AF1624BC6200F875DE;
+			productRefGroup = 9B2FA7BB1624BC6200F875DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B2FA7B91624BC6200F875DE /* Flusher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B2FA7B81624BC6200F875DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2FA7CB1624BC6200F875DE /* InfoPlist.strings in Resources */,
+				9B2FA7D11624BC6200F875DE /* Credits.rtf in Resources */,
+				9B2FA7D31624BC6200F875DE /* rb_main.rb in Resources */,
+				9B2FA7D51624BC6200F875DE /* AppDelegate.rb in Resources */,
+				9B2FA7D81624BC6200F875DE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B2FA7B61624BC6200F875DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2FA7CD1624BC6200F875DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B2FA7C91624BC6200F875DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2FA7CA1624BC6200F875DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B2FA7CF1624BC6200F875DE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2FA7D01624BC6200F875DE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9B2FA7D61624BC6200F875DE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2FA7D71624BC6200F875DE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B2FA7D91624BC6200F875DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9B2FA7DA1624BC6200F875DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9B2FA7DC1624BC6200F875DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"/Library/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flusher/Flusher-Prefix.pch";
+				INFOPLIST_FILE = "Flusher/Flusher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B2FA7DD1624BC6200F875DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"/Library/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flusher/Flusher-Prefix.pch";
+				INFOPLIST_FILE = "Flusher/Flusher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B2FA7B41624BC6200F875DE /* Build configuration list for PBXProject "Flusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2FA7D91624BC6200F875DE /* Debug */,
+				9B2FA7DA1624BC6200F875DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2FA7DB1624BC6200F875DE /* Build configuration list for PBXNativeTarget "Flusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2FA7DC1624BC6200F875DE /* Debug */,
+				9B2FA7DD1624BC6200F875DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B2FA7B11624BC6200F875DE /* Project object */;
+}
