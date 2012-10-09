@@ -3,7 +3,10 @@
 #  Flusher
 #
 #  Created by Gabor Garami on 2012.10.09..
-#  Copyright (c) 2012 Gabor Garami. All rights reserved.
+#  Copyright (c) 2012 Gabor Garami. Some rights reserved.
+#
+#  This program is licensed under the terms of Creative Commons BY-NC-SA License
+#  To details, see COPYING file in project root
 #
 
 require 'osx/cocoa'

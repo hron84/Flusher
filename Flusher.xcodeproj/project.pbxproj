@@ -13,8 +13,10 @@
 		9B2FA7CD1624BC6200F875DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2FA7CC1624BC6200F875DE /* main.m */; };
 		9B2FA7D11624BC6200F875DE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7CF1624BC6200F875DE /* Credits.rtf */; };
 		9B2FA7D31624BC6200F875DE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7D21624BC6200F875DE /* rb_main.rb */; };
-		9B2FA7D51624BC6200F875DE /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7D41624BC6200F875DE /* AppDelegate.rb */; };
 		9B2FA7D81624BC6200F875DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7D61624BC6200F875DE /* MainMenu.xib */; };
+		9B2FA7DF1624BF9000F875DE /* Flusher.rb in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7DE1624BF9000F875DE /* Flusher.rb */; };
+		9B2FA7E11624C13900F875DE /* globe.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7E01624C13900F875DE /* globe.icns */; };
+		9B2FA7E31624C14C00F875DE /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2FA7E21624C14C00F875DE /* globe.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +32,10 @@
 		9B2FA7CE1624BC6200F875DE /* Flusher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flusher-Prefix.pch"; sourceTree = "<group>"; };
 		9B2FA7D01624BC6200F875DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		9B2FA7D21624BC6200F875DE /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
-		9B2FA7D41624BC6200F875DE /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		9B2FA7D71624BC6200F875DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9B2FA7DE1624BF9000F875DE /* Flusher.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Flusher.rb; sourceTree = "<group>"; };
+		9B2FA7E01624C13900F875DE /* globe.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = globe.icns; sourceTree = "<group>"; };
+		9B2FA7E21624C14C00F875DE /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		9B2FA7AF1624BC6200F875DE = {
 			isa = PBXGroup;
 			children = (
+				9B2FA7E01624C13900F875DE /* globe.icns */,
 				9B2FA7C61624BC6200F875DE /* Flusher */,
 				9B2FA7BD1624BC6200F875DE /* Frameworks */,
 				9B2FA7BB1624BC6200F875DE /* Products */,
@@ -87,7 +92,7 @@
 		9B2FA7C61624BC6200F875DE /* Flusher */ = {
 			isa = PBXGroup;
 			children = (
-				9B2FA7D41624BC6200F875DE /* AppDelegate.rb */,
+				9B2FA7DE1624BF9000F875DE /* Flusher.rb */,
 				9B2FA7D61624BC6200F875DE /* MainMenu.xib */,
 				9B2FA7C71624BC6200F875DE /* Supporting Files */,
 			);
@@ -97,6 +102,7 @@
 		9B2FA7C71624BC6200F875DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9B2FA7E21624C14C00F875DE /* globe.png */,
 				9B2FA7C81624BC6200F875DE /* Flusher-Info.plist */,
 				9B2FA7C91624BC6200F875DE /* InfoPlist.strings */,
 				9B2FA7CC1624BC6200F875DE /* main.m */,
@@ -161,8 +167,10 @@
 				9B2FA7CB1624BC6200F875DE /* InfoPlist.strings in Resources */,
 				9B2FA7D11624BC6200F875DE /* Credits.rtf in Resources */,
 				9B2FA7D31624BC6200F875DE /* rb_main.rb in Resources */,
-				9B2FA7D51624BC6200F875DE /* AppDelegate.rb in Resources */,
 				9B2FA7D81624BC6200F875DE /* MainMenu.xib in Resources */,
+				9B2FA7DF1624BF9000F875DE /* Flusher.rb in Resources */,
+				9B2FA7E11624C13900F875DE /* globe.icns in Resources */,
+				9B2FA7E31624C14C00F875DE /* globe.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +269,13 @@
 		9B2FA7DC1624BC6200F875DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"/Library/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flusher/Flusher-Prefix.pch";
 				INFOPLIST_FILE = "Flusher/Flusher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,11 +284,13 @@
 		9B2FA7DD1624BC6200F875DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"/Library/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flusher/Flusher-Prefix.pch";
 				INFOPLIST_FILE = "Flusher/Flusher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
